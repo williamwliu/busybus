@@ -14,6 +14,18 @@ body {
   margin:auto;
 }
 
+header {
+  width: 375px;
+  height: 60px;
+  background-color:#81A988;
+  position:fixed;
+  z-index:1;
+}
+
+main {
+  padding: 70px 0px 0px 0px;
+}
+
 h1{
   font-size:20px;
   font-weight:bold;
@@ -30,14 +42,7 @@ h3{
   margin-top:5px;
 }
 
-/** Top Status Bar + Search + ResultsBar **/
-.top {
-  width: 375px;
-  height: 60px;
-  background-color:#81A988;
-  position:fixed;
-  z-index:1;
-}
+
 
 .status{
   width: 375px;
@@ -116,9 +121,7 @@ h3{
 
 /* Route Information */
 
-.route-list {
-  padding: 70px 0px 0px 0px;
-}
+
 
 
 .route{
